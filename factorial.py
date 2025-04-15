@@ -22,6 +22,9 @@ def main():
         if number < 0:
             # If the number is negative, print a error message
             print("Please enter a non-negative number.")
+        elif number == 0:
+            # Factorial of 0 is 1 by definition
+            product = 1
         else:
             # Use while true to simulate a do.. while statement
             while True:
